@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Darker+Grotesque:wght@300;400;500;600&family=Nabla&family=Sirin+Stencil&display=swap');
+ 
+body {
+  letter-spacing: .04em
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: lowercase;
+  font-weight: 100 !important
+}
+.builttoscale { 
+  filter : hue-rotate(25deg) saturate(.9) brightness(80%);
+  text-shadow: -2px -1px #a80d41;
+  font-family: Nabla, cursive
+}
+
+button {
+  text-transform: lowercase;
+  font-variant: small-caps
+}
