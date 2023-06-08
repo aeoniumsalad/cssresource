@@ -7266,3 +7266,11 @@ h1, h2, h3, h4, h5, h6 {
 button {
   text-transform: lowercase;
   font-variant: small-caps; }
+
+@media (min-width: 576px) {
+  .navigator {
+    max-width: 500px; } }
+
+@media (min-width: 768px) {
+  .navigator {
+    max-width: 200px; } }
