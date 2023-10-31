@@ -1,5 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Darker+Grotesque:wght@300;400;500;600&family=Nabla&family=Sirin+Stencil&display=swap');
  
+ @import url("https://fonts.googleapis.com/css2?family=Eater&display=swap"); /*HALLOWEEN FONT*/
+
 body {
   letter-spacing: .04em
 }
@@ -23,4 +25,8 @@ button {
   text-transform: lowercase;
   letter-spacing: .1rem;
   font-size: .9rem !important;
+}
+
+.text-muted {
+  opacity: 0.5
 }
