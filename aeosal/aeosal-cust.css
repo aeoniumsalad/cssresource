@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 100 !important
 }
 
-h1::before, h2::before, h3::before {
+h1:before, h2:before, h3:before, h4:before, h5:before {
   content: "⚘ "
 }
 
