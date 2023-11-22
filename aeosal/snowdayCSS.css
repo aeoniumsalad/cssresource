@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
 
-h1::before, h2::before, h3::before {
-  content: "❉ " !important
+h1:before, h2:before, h3:before, h4:before, h5:before {
+  content: "❉ "
 }
 
 :root {
