@@ -1,5 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Darker+Grotesque:wght@300;400;500;600&family=Nabla&family=Sirin+Stencil&display=swap');
- 
+
+@font-face {
+	font-family: 'fingerpaint';
+	src: url('//2ttf.com/webfont/CU557V5DZg8/webfont.ttf') format('truetype');
+}
+
+
 body {
   letter-spacing: .04em
 }
@@ -16,7 +22,7 @@ h1::before, h2::before, h3::before {
 .builttoscale { 
   filter : hue-rotate(25deg) saturate(.9) brightness(80%);
   text-shadow: -2px -1px #a80d41;
-  font-family: Nabla, cursive
+  font-family: 'fingerpaint'
 }
 
 button {
